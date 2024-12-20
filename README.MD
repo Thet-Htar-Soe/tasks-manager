@@ -38,13 +38,12 @@ tasks-manager/
 <li>cd tasks-manager</li>
 <li>Copy .env.local file to .env on the apps/backend folder. </li>
 <li>Open your .env file and change DATABASE_URL and SESSION_SECRET correspond to your configuration.</li>
+<li>Go to apps/backend folder and run</li>
 ### Prisma Set up
+<li>pnpm install</li>
 <li>pnpm prisma init</li>
 <li>pnpm prisma migrate deploy</li>
 <li>pnpm prisma generate</li>
-<li>Go to apps/backend folder and run</li>
-<ol>
-<li>pnpm install</li>
 <li>pnpm dev</li>
 <ol>
 <li>Go to apps/frontend folder and run</li>
